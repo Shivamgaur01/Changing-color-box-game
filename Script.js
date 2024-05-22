@@ -24,3 +24,13 @@ rect.addEventListener("mousemove", function(details)  {
 
 
 })
+
+// steps for this game
+// 1) sabse phle hume pata lagana hai ki ky humara box mouse touch pe work krra hai to uske lie mousemove ko event listner me daal ke check krege 
+// 2) second steps me hum box ki location pta krege to uske lie hume getBoundingClientRect() ko use krna hai ye hume box ki location btaega
+// 3) third step me hum box ki details check krege client x hume btaega ki box ke ander hum jab mouse se move krege to kitna krege 
+// 4) fourth steps ye hai ki ab hum only box ke ander kitna move krre hai ye pta lagaege jiske lie hume clientx se getBoundingClientRect wale ko minus krna hoga 
+// 5) fifth step me hum box ko left and right part me differentiate krte hai if condition ka use krke 
+// 6) sixth step me hum box ke ander dekhte hai ki agr hum left me bhi jaare hai to kitna jaare hai (for intensity of color purpose) iske lie hum "gsap" use krte hai taaki mapping bhi ho sake gsp ki mdn reference me script ko paste krege html me
+// 7) seventh step me mapping krwane ke baad hum gsap.to ki mdd se color change krege 
+
